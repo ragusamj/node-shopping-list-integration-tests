@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: j3pV6m2jw7FgHQ/GvObUvpgHWlajWfRkZzm/WncYCKZzuwtQ6UwtEMsFwVBqQFmFHNwrvvyVUg5+zQ7+RXgo/s+wGrFXKRoME3Fjgm6bdK/e+e2PUWL/8Dsl+PPrBNYEbSZcCfvQ9E230Da9kfxNNjKturvmKwl5ztB5mCGyq52qqHhe5Cj4C0/77AtOLLHjHdyrhQFnVayh0/LkIJ7G15X7+e9buq/o05ThJWwTOa2Dyl5/PNPz1YWLrsrDsofYulxkkLYE7ffzrYho8Df5vvdpH9xYfxjHENPISA/k1W2eY1ELgOCwFt4AGXqLAdjIRHGBeQ1Pa8qjXJzGpifuse4wH+ETq8OBjkFuUz50SVmhGC74PmJcYt6CeO1yFbZavdnX+fqJdo53qViEPZxaQUan2EGp6wdDpssy7YYzqT+ZVstNyzbJ69jApvl7utVTQW6Mp7GvyxC+943Ms4WvsT+O7Z0mW425IXiLK9yFmGFv2U2BhcvYJCYcjTnIMJ0723QPDk4IqRS/YYvT8sTYDhIeIGT3rGbNR/h/0lV5TFtPUO3z0qboe3QDSXcx16cQJJm0U/CyzuJoVHpCvHcNJtheXdpW6Xy/QnrfVpTmldUQNtpyBwgzkPV5Mf9VuYt6r5HU8H32AYrmNJoJjF11ENXJf0wFiCSLcdiUc/mfgP8=
+    app: guarded-bayou-24153
+  on:
+    repo: ragusamj/node-shopping-list-integration-tests
